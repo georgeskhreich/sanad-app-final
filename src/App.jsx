@@ -13,7 +13,7 @@ import {
   setDoc, 
   addDoc, 
   updateDoc, 
-  deleteDoc,
+  deleteDoc, // تم إضافة دالة الحذف التي كانت تسبب خطأ البناء!
   onSnapshot 
 } from 'firebase/firestore';
 
